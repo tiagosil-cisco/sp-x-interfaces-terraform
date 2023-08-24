@@ -1,0 +1,24 @@
+# This file is maintained automatically by "terraform init".
+# Manual edits may be lost in future updates.
+
+provider "registry.terraform.io/ciscodevnet/iosxr" {
+  version = "0.2.4"
+  hashes = [
+    "h1:FRuSlY9wGIHtcH1I38HlGHhY5kU/OMpTKZidfb2wsnY=",
+    "zh:0f40bd3f80afea84d75d05c6fad5e8701058827ae7d07c4d299e2914a4040568",
+    "zh:128b8bcba46752ba5c4f37c7594ece8a361ed2bbf2e938d793818af7c1f35ae6",
+    "zh:38ca046c6feb414cce6eac015ddc3723c4d35acc74f795f69591c5903a6d4951",
+    "zh:3e0c6fb094d7c01f734c7b3f7fc8627facb9847ddfff4ffd85651940037e2197",
+    "zh:3e8767f3d8c3eb1819529c93671fc439b071b01d5c8a5b17f0f84c518efc66ef",
+    "zh:416d917560e6801584b7df69cfc4feb0248ddde616a083296deaac176322ba10",
+    "zh:60cb881646874c4e2a65c0bc2bad580689f21e5bbbe41e7378065f917eebdef7",
+    "zh:6d9e451cf3cbe5bff0524d745d60342905b08ea26063e600932ed04cd96b459a",
+    "zh:715e6b0217b94328c33f666cc61e5ad2029e5e6ff5b5653fcdb7c98ae99398aa",
+    "zh:890df766e9b839623b1f0437355032a3c006226a6c200cd911e15ee1a9014e9f",
+    "zh:9ff980298e6a7c14321d0d5080364615c2592d47cf9e7a01aedac56f23910ab7",
+    "zh:c27d40714992fca2bcc44d6f217813caf152097b872f57ff504107111041694c",
+    "zh:c89d5647f169c8eab1ed84685384f27d6d156c752e26a130b1e6f08bffa97d1a",
+    "zh:ce120b5822c64660ea751526a025057fbc1582898dcb2cc6dd4be30dda565dc5",
+    "zh:f215e663e42d6950bd8e2b7bdf0a8d9a14f684625d1261dedf92289d352de5bf",
+  ]
+}
