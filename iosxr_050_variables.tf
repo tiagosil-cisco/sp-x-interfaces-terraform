@@ -4,52 +4,52 @@ locals {
 
   routers = [
     {
-      name           = "pe01"
-      host           = "10.0.1.51"
+      name = "pe01"
+      host = "10.0.1.51"
     },
     {
-      name           = "pe02"
-      host           = "10.0.1.52"
+      name = "pe02"
+      host = "10.0.1.52"
     },
     {
-      name           = "p01"
-      host           = "10.0.1.53"
+      name = "p01"
+      host = "10.0.1.53"
     },
     {
-      name           = "p02"
-      host           = "10.0.1.54"
+      name = "p02"
+      host = "10.0.1.54"
     },
     {
-      name           = "p03"
-      host           = "10.0.1.55"
+      name = "p03"
+      host = "10.0.1.55"
     },
     {
-      name           = "p04"
-      host           = "10.0.1.56"
+      name = "p04"
+      host = "10.0.1.56"
     },
     {
-      name           = "pe03"
-      host           = "10.0.1.57"
+      name = "pe03"
+      host = "10.0.1.57"
     },
     {
-      name           = "pe04"
-      host           = "10.0.1.58"
+      name = "pe04"
+      host = "10.0.1.58"
     },
     {
-      name           = "asbr01"
-      host           = "10.0.1.59"
+      name = "asbr01"
+      host = "10.0.1.59"
     },
     {
-      name           = "asbr02"
-      host           = "10.0.1.60"
+      name = "asbr02"
+      host = "10.0.1.60"
     },
     {
-      name           = "rrpce01"
-      host           = "10.0.1.61"
+      name = "rrpce01"
+      host = "10.0.1.61"
     },
     {
-      name           = "rrpce02"
-      host           = "10.0.1.62"
+      name = "rrpce02"
+      host = "10.0.1.62"
     },
   ]
 
@@ -346,12 +346,12 @@ variable "p2p_links" {
       shutdown           = "false"
       bandwidth          = "1000000"
     },
-    p02_rrpce02 = {
+    p03_rrpce02 = {
       description        = "P02_to_RRPCE02"
       mtu                = 9126
       subnet_ipv4        = "10.31.0.112/30"
       subnet_ipv6        = "fc00:10:31:0:112::0/64"
-      router_a           = "p02"
+      router_a           = "p03"
       router_a_interface = "GigabitEthernet0/0/0/4"
       router_b           = "rrpce02"
       router_b_interface = "GigabitEthernet0/0/0/0"
