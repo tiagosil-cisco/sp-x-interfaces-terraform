@@ -1,5 +1,5 @@
 resource "iosxr_interface" "links_side_a" {
-  for_each       = var.p2p_links
+  for_each       = local.p2p_links
   device         = each.value.router_a
   interface_name = each.value.router_a_interface
   shutdown       = each.value.shutdown
@@ -18,7 +18,7 @@ resource "iosxr_interface" "links_side_a" {
 }
 
 resource "iosxr_interface" "links_side_b" {
-  for_each       = var.p2p_links
+  for_each       = local.p2p_links
   device         = each.value.router_b
   interface_name = each.value.router_b_interface
   shutdown       = each.value.shutdown

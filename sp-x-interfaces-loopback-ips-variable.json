@@ -1,0 +1,63 @@
+{
+    "pe01": {
+      "loopback_id": 0,
+      "ipv4_address": "10.31.1.1",
+      "ipv6_address": "fc00:10:31:1::1"
+    },
+    "pe02": {
+      "loopback_id": 0,
+      "ipv4_address": "10.31.1.2",
+      "ipv6_address": "fc00:10:31:1::2"
+    },
+    "p01": {
+      "loopback_id": 0,
+      "ipv4_address": "10.31.1.3",
+      "ipv6_address": "fc00:10:31:1::3"
+    },
+    "p02": {
+      "loopback_id": 0,
+      "ipv4_address": "10.31.1.4",
+      "ipv6_address": "fc00:10:31:1::4"
+    },
+    "p03": {
+      "loopback_id": 0,
+      "ipv4_address": "10.31.1.5",
+      "ipv6_address": "fc00:10:31:1::5"
+    },
+    "p04": {
+      "loopback_id": 0,
+      "ipv4_address": "10.31.1.6",
+      "ipv6_address": "fc00:10:31:1::6"
+    },
+    "pe03": {
+      "loopback_id": 0,
+      "ipv4_address": "10.31.1.7",
+      "ipv6_address": "fc00:10:31:1::7"
+    },
+    "pe04": {
+      "loopback_id": 0,
+      "ipv4_address": "10.31.1.8",
+      "ipv6_address": "fc00:10:31:1::8"
+    },
+    "asbr01": {
+      "loopback_id": 0,
+      "ipv4_address": "10.31.1.9",
+      "ipv6_address": "fc00:10:31:1::9"
+    },
+    "asbr02": {
+      "loopback_id": 0,
+      "ipv4_address": "10.31.1.10",
+      "ipv6_address": "fc00:10:31:1::10"
+    },
+    "rrpce01": {
+      "loopback_id": 0,
+      "ipv4_address": "10.31.1.11",
+      "ipv6_address": "fc00:10:31:1::11"
+    },
+    "rrpce02": {
+      "loopback_id": 0,
+      "ipv4_address": "10.31.1.12",
+      "ipv6_address": "fc00:10:31:1::12"
+    }
+  }
+  

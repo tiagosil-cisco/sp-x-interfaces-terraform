@@ -1,7 +1,11 @@
 locals {
   project_title       = "SP-B"
   project_description = "Topology created using Terraform to represent SP-X"
+  routers             = jsondecode(file("${path.module}/sp-x-devices.json"))
+  p2p_links           = jsondecode(file("${path.module}/sp-x-interfaces-point-to-points-variable.json"))
+  loopback_ips        = jsondecode(file("${path.module}/sp-x-interfaces-loopback-ips-variable.json"))
 
+  /*
   routers = [
     {
       name = "pe01"
@@ -52,11 +56,13 @@ locals {
       host = "10.0.1.62"
     },
   ]
-
+*/
   xr_username = "admin"
   xr_password = "C!sco123"
 }
 
+
+/*
 variable "p2p_links" {
   type = map(any)
   default = {
@@ -427,3 +433,5 @@ variable "loopback_ips" {
     },
   }
 }
+
+*/

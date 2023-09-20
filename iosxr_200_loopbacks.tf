@@ -1,5 +1,5 @@
 resource "iosxr_interface" "loopbacks" {
-  for_each       = var.loopback_ips
+  for_each       = local.loopback_ips
   device         = each.key
   interface_name = "Loopback${each.value.loopback_id}"
   shutdown       = "false"
